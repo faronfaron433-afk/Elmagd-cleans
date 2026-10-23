@@ -1,0 +1,943 @@
+{
+  "version": 1,
+  "lastModified": "2026-10-23T22:02:09.597Z",
+  "settings": {
+    "storeName": "منظفات المجد",
+    "tagline": "أجود أنواع المساحيق والمنظفات بالجملة والقطاعي",
+    "phone": "01012345678",
+    "address": "شارع المحطة - بجوار المسجد الكبير",
+    "currency": "ج.م",
+    "managerPin": "4545",
+    "lastModified": "2026-10-23T22:02:08.313Z"
+  },
+  "categories": [
+    {
+      "id": "cat_laundry",
+      "name": "مساحيق غسيل وجل",
+      "iconName": "Sparkles",
+      "description": "مساحيق أوتوماتيك وعادي، جل غسيل ملابس بيضاء وألوان وسوداء",
+      "order": 1
+    },
+    {
+      "id": "cat_dishwashing",
+      "name": "صابون وسوائل جلي",
+      "iconName": "Droplets",
+      "description": "سوائل مواعين مركزة، صابون غسالات أطباق، صابون سائل سايب",
+      "order": 2
+    },
+    {
+      "id": "cat_disinfectants",
+      "name": "مطهرات وكلور وفلاش",
+      "iconName": "ShieldCheck",
+      "description": "كلور أبيض وألوان، فلاش حمامات، ديتول مطهر، فنيك مركز",
+      "order": 3
+    },
+    {
+      "id": "cat_softeners",
+      "name": "معطرات ومنعمات أقمشة",
+      "iconName": "Wind",
+      "description": "داوني وكومفورت، معطرات جو وأرضيات، بخاخات فريدة",
+      "order": 4
+    },
+    {
+      "id": "cat_paper_tools",
+      "name": "مناديل وأدوات نظافة",
+      "iconName": "Layers",
+      "description": "مناديل مطبخ وتواليت، إسفنج وسلك مواعين، مساحات ومقشات",
+      "order": 5
+    },
+    {
+      "id": "cat_personal_care",
+      "name": "صابون وشامبو وعناية",
+      "iconName": "Smile",
+      "description": "صابون سائل للأيدي، صابون وجه، شاور جل وشامبوهات",
+      "order": 6
+    }
+  ],
+  "products": [
+    {
+      "id": "prod_ariel",
+      "categoryId": "cat_laundry",
+      "name": "إريال أوتوماتيك (Ariel)",
+      "brand": "إريال",
+      "description": "مسحوق غسيل أوتوماتيك لإزالة أصعب البقع برائحة الانتعاش الأصلية",
+      "isPopular": true,
+      "createdAt": "2026-10-23T22:02:08.313Z",
+      "updatedAt": "2026-10-23T22:02:08.313Z",
+      "variants": [
+        {
+          "id": "ariel_1kg",
+          "name": "1 كجم أوتوماتيك",
+          "price": 95,
+          "costPrice": 82,
+          "barcode": "622115501",
+          "inStock": true,
+          "stockQuantity": 35,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "ariel_2_5kg",
+          "name": "2.5 كجم أوتوماتيك",
+          "price": 225,
+          "costPrice": 198,
+          "barcode": "622115502",
+          "inStock": true,
+          "stockQuantity": 28,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "ariel_4kg",
+          "name": "4 كجم أوتوماتيك (عرض خاص)",
+          "price": 350,
+          "costPrice": 310,
+          "barcode": "622115504",
+          "inStock": true,
+          "stockQuantity": 20,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "ariel_8kg",
+          "name": "8 كجم شيكارة موفرة",
+          "price": 680,
+          "costPrice": 605,
+          "barcode": "622115508",
+          "inStock": true,
+          "stockQuantity": 12,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "ariel_gel_3_5l",
+          "name": "جل مركز 3.5 لتر لافندر",
+          "price": 260,
+          "costPrice": 230,
+          "barcode": "622115510",
+          "inStock": true,
+          "stockQuantity": 16,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "ariel_manual_350g",
+          "name": "كيس يدوي عادي 350 جم",
+          "price": 25,
+          "costPrice": 20,
+          "barcode": "622115512",
+          "inStock": true,
+          "stockQuantity": 50,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        }
+      ]
+    },
+    {
+      "id": "prod_persil",
+      "categoryId": "cat_laundry",
+      "name": "برسيل تكنولوجيا ألمانية (Persil)",
+      "brand": "برسيل",
+      "description": "مسحوق التنظيف العميق باللافندر والملايين من حبيبات النظافة",
+      "isPopular": true,
+      "createdAt": "2026-10-23T22:02:08.313Z",
+      "updatedAt": "2026-10-23T22:02:08.313Z",
+      "variants": [
+        {
+          "id": "persil_1kg",
+          "name": "1 كجم أوتوماتيك لافندر",
+          "price": 90,
+          "costPrice": 78,
+          "barcode": "622114401",
+          "inStock": true,
+          "stockQuantity": 30,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "persil_3kg",
+          "name": "3 كجم أوتوماتيك",
+          "price": 250,
+          "costPrice": 220,
+          "barcode": "622114403",
+          "inStock": true,
+          "stockQuantity": 24,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "persil_5kg",
+          "name": "5 كجم أوتوماتيك توفير",
+          "price": 395,
+          "costPrice": 350,
+          "barcode": "622114405",
+          "inStock": true,
+          "stockQuantity": 15,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "persil_8kg",
+          "name": "8 كجم شيكارة جامبو",
+          "price": 660,
+          "costPrice": 585,
+          "barcode": "622114408",
+          "inStock": true,
+          "stockQuantity": 10,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "persil_black_2_5l",
+          "name": "برسيل بلاك للعبايات والأسود 2.5 لتر",
+          "price": 220,
+          "costPrice": 195,
+          "barcode": "622114415",
+          "inStock": true,
+          "stockQuantity": 18,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        }
+      ]
+    },
+    {
+      "id": "prod_oxi",
+      "categoryId": "cat_laundry",
+      "name": "أوكسي برائحة نسيم الربيع (Oxi)",
+      "brand": "أوكسي",
+      "description": "قوة الأكسجين الفوار لإزالة البقع وثبات الألوان",
+      "isPopular": true,
+      "createdAt": "2026-10-23T22:02:08.313Z",
+      "updatedAt": "2026-10-23T22:02:08.313Z",
+      "variants": [
+        {
+          "id": "oxi_1kg",
+          "name": "1 كجم أوتوماتيك",
+          "price": 75,
+          "costPrice": 65,
+          "barcode": "622113301",
+          "inStock": true,
+          "stockQuantity": 40,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "oxi_2_5kg",
+          "name": "2.5 كجم أوتوماتيك",
+          "price": 175,
+          "costPrice": 152,
+          "barcode": "622113302",
+          "inStock": true,
+          "stockQuantity": 32,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "oxi_4kg",
+          "name": "4 كجم أوتوماتيك",
+          "price": 270,
+          "costPrice": 238,
+          "barcode": "622113304",
+          "inStock": true,
+          "stockQuantity": 22,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "oxi_7kg",
+          "name": "7 كجم شيكارة أوتوماتيك",
+          "price": 440,
+          "costPrice": 388,
+          "barcode": "622113307",
+          "inStock": true,
+          "stockQuantity": 14,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "oxi_gel_3l",
+          "name": "أوكسي جل 3 لتر نسيم اللافندر",
+          "price": 185,
+          "costPrice": 160,
+          "barcode": "622113310",
+          "inStock": true,
+          "stockQuantity": 19,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        }
+      ]
+    },
+    {
+      "id": "prod_tide",
+      "categoryId": "cat_laundry",
+      "name": "تايد نسيم الصباح (Tide)",
+      "brand": "تايد",
+      "description": "بياض ناصع ونظافة فائقة للغسالات الأوتوماتيكية",
+      "isPopular": false,
+      "createdAt": "2026-10-23T22:02:08.313Z",
+      "updatedAt": "2026-10-23T22:02:08.313Z",
+      "variants": [
+        {
+          "id": "tide_1kg",
+          "name": "1 كجم أوتوماتيك",
+          "price": 85,
+          "costPrice": 73,
+          "barcode": "622112201",
+          "inStock": true,
+          "stockQuantity": 25,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "tide_2_5kg",
+          "name": "2.5 كجم أوتوماتيك",
+          "price": 205,
+          "costPrice": 180,
+          "barcode": "622112202",
+          "inStock": true,
+          "stockQuantity": 18,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "tide_5kg",
+          "name": "5 كجم توفير",
+          "price": 380,
+          "costPrice": 335,
+          "barcode": "622112205",
+          "inStock": true,
+          "stockQuantity": 10,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        }
+      ]
+    },
+    {
+      "id": "prod_fairy",
+      "categoryId": "cat_dishwashing",
+      "name": "فيري سائل غسيل الأطباق (Fairy)",
+      "brand": "فيري",
+      "description": "قطرة واحدة تدوم طويلاً لإذابة أصعب الدهون والزيوت المستعصية",
+      "isPopular": true,
+      "createdAt": "2026-10-23T22:02:08.313Z",
+      "updatedAt": "2026-10-23T22:02:08.313Z",
+      "variants": [
+        {
+          "id": "fairy_450ml",
+          "name": "عبوة 450 مل بالليمون",
+          "price": 38,
+          "costPrice": 31,
+          "barcode": "62220101",
+          "inStock": true,
+          "stockQuantity": 45,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "fairy_650ml",
+          "name": "عبوة 650 مل ليمون / بلس",
+          "price": 55,
+          "costPrice": 46,
+          "barcode": "62220102",
+          "inStock": true,
+          "stockQuantity": 38,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "fairy_1l",
+          "name": "زجاجة 1 لتر مركز",
+          "price": 80,
+          "costPrice": 68,
+          "barcode": "62220103",
+          "inStock": true,
+          "stockQuantity": 30,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "fairy_4l",
+          "name": "جركل 4 لتر عائلي موفر",
+          "price": 275,
+          "costPrice": 240,
+          "barcode": "62220104",
+          "inStock": true,
+          "stockQuantity": 12,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        }
+      ]
+    },
+    {
+      "id": "prod_pril",
+      "categoryId": "cat_dishwashing",
+      "name": "بريل سائل مواعين (Pril)",
+      "brand": "بريل",
+      "description": "بقوة الليمون والمذيبات الفعالة للدهون ولمعان فائق للأواني",
+      "isPopular": true,
+      "createdAt": "2026-10-23T22:02:08.313Z",
+      "updatedAt": "2026-10-23T22:02:08.313Z",
+      "variants": [
+        {
+          "id": "pril_500ml",
+          "name": "500 مل بالليمون",
+          "price": 32,
+          "costPrice": 26,
+          "barcode": "62220201",
+          "inStock": true,
+          "stockQuantity": 40,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "pril_1l",
+          "name": "1 لتر بالليمون المركز",
+          "price": 60,
+          "costPrice": 51,
+          "barcode": "62220202",
+          "inStock": true,
+          "stockQuantity": 35,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "pril_2_5l",
+          "name": "جركل 2.5 لتر توفير",
+          "price": 135,
+          "costPrice": 115,
+          "barcode": "62220203",
+          "inStock": true,
+          "stockQuantity": 20,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        }
+      ]
+    },
+    {
+      "id": "prod_fiba",
+      "categoryId": "cat_dishwashing",
+      "name": "فيبا سائل تنظيف مواعين (Fiba)",
+      "brand": "فيبا",
+      "description": "تركيبة غنية برغوة وفيرة ولطيف على اليدين",
+      "isPopular": false,
+      "createdAt": "2026-10-23T22:02:08.313Z",
+      "updatedAt": "2026-10-23T22:02:08.313Z",
+      "variants": [
+        {
+          "id": "fiba_1l",
+          "name": "1 لتر تفاح أو ليمون",
+          "price": 40,
+          "costPrice": 32,
+          "barcode": "62220301",
+          "inStock": true,
+          "stockQuantity": 30,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "fiba_3l",
+          "name": "3 لتر اقتصادي",
+          "price": 105,
+          "costPrice": 88,
+          "barcode": "62220302",
+          "inStock": true,
+          "stockQuantity": 18,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "fiba_4l",
+          "name": "جركل 4 لتر موفر",
+          "price": 135,
+          "costPrice": 114,
+          "barcode": "62220303",
+          "inStock": true,
+          "stockQuantity": 15,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        }
+      ]
+    },
+    {
+      "id": "prod_loose_soap",
+      "categoryId": "cat_dishwashing",
+      "name": "صابون سائل شعبي ممتاز (سايب)",
+      "brand": "المجد للخلطات",
+      "description": "صابون خام معبأ عالي الرغوة واللزوجة برائحة الليمون الخالص",
+      "isPopular": true,
+      "createdAt": "2026-10-23T22:02:08.313Z",
+      "updatedAt": "2026-10-23T22:02:08.313Z",
+      "variants": [
+        {
+          "id": "loose_1l",
+          "name": "1 لتر بالكيلو / تعبئة",
+          "price": 10,
+          "costPrice": 6.5,
+          "barcode": "1001",
+          "inStock": true,
+          "stockQuantity": 150,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "loose_5l",
+          "name": "جركل 5 لتر معبأ جاهز",
+          "price": 45,
+          "costPrice": 32,
+          "barcode": "1005",
+          "inStock": true,
+          "stockQuantity": 40,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "loose_10l",
+          "name": "جركل 10 لتر للمطاعم والمنازل",
+          "price": 85,
+          "costPrice": 60,
+          "barcode": "1010",
+          "inStock": true,
+          "stockQuantity": 20,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        }
+      ]
+    },
+    {
+      "id": "prod_clorox",
+      "categoryId": "cat_disinfectants",
+      "name": "كلوركس أبيض للملابس والمطابخ (Clorox)",
+      "brand": "كلوركس",
+      "description": "تبييض فائق وتطهير يقضي على 99.9% من الجراثيم",
+      "isPopular": true,
+      "createdAt": "2026-10-23T22:02:08.313Z",
+      "updatedAt": "2026-10-23T22:02:08.313Z",
+      "variants": [
+        {
+          "id": "clorox_950ml",
+          "name": "زجاجة 950 مل أبيض عادي",
+          "price": 25,
+          "costPrice": 19,
+          "barcode": "62230101",
+          "inStock": true,
+          "stockQuantity": 50,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "clorox_3_7l",
+          "name": "جركل 3.78 لتر موفر",
+          "price": 75,
+          "costPrice": 62,
+          "barcode": "62230102",
+          "inStock": true,
+          "stockQuantity": 25,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "clorox_colors_950",
+          "name": "كلوركس ألوان 950 مل أمان تام",
+          "price": 35,
+          "costPrice": 28,
+          "barcode": "62230103",
+          "inStock": true,
+          "stockQuantity": 30,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "clorox_colors_1_8l",
+          "name": "كلوركس ألوان 1.8 لتر",
+          "price": 65,
+          "costPrice": 53,
+          "barcode": "62230104",
+          "inStock": true,
+          "stockQuantity": 18,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        }
+      ]
+    },
+    {
+      "id": "prod_flash",
+      "categoryId": "cat_disinfectants",
+      "name": "فلاش الأصلي لتنظيف وتطهير التواليت والحمامات",
+      "brand": "فلاش",
+      "description": "المزيل القوي للصدأ والتكلسات والاصفرار في السيراميك وقواعد الحمامات",
+      "isPopular": true,
+      "createdAt": "2026-10-23T22:02:08.313Z",
+      "updatedAt": "2026-10-23T22:02:08.313Z",
+      "variants": [
+        {
+          "id": "flash_1l",
+          "name": "زجاجة 1 لتر حمامات أصلي",
+          "price": 28,
+          "costPrice": 21,
+          "barcode": "62230201",
+          "inStock": true,
+          "stockQuantity": 60,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "flash_3pack",
+          "name": "عرض خاص (3 زجاجات)",
+          "price": 75,
+          "costPrice": 58,
+          "barcode": "62230202",
+          "inStock": true,
+          "stockQuantity": 20,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        }
+      ]
+    },
+    {
+      "id": "prod_dettol",
+      "categoryId": "cat_disinfectants",
+      "name": "ديتول المطهر والمعقم الطبي الأصلي (Dettol)",
+      "brand": "ديتول",
+      "description": "حماية معتمدة وموثوقة ضد الجراثيم والبكتيريا لجميع أغراض المنزل",
+      "isPopular": true,
+      "createdAt": "2026-10-23T22:02:08.313Z",
+      "updatedAt": "2026-10-23T22:02:08.313Z",
+      "variants": [
+        {
+          "id": "dettol_250ml",
+          "name": "عبوة 250 مل معقم",
+          "price": 50,
+          "costPrice": 41,
+          "barcode": "62230301",
+          "inStock": true,
+          "stockQuantity": 30,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "dettol_500ml",
+          "name": "عبوة 500 مل مركز",
+          "price": 90,
+          "costPrice": 76,
+          "barcode": "62230302",
+          "inStock": true,
+          "stockQuantity": 25,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "dettol_1l",
+          "name": "زجاجة 1 لتر اقتصادية",
+          "price": 165,
+          "costPrice": 142,
+          "barcode": "62230303",
+          "inStock": true,
+          "stockQuantity": 15,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        }
+      ]
+    },
+    {
+      "id": "prod_harpic",
+      "categoryId": "cat_disinfectants",
+      "name": "هاربيك باور بلس لتنظيف التواليت (Harpic)",
+      "brand": "هاربيك",
+      "description": "تنظيف قوي وإزالة كاملة للكلس والاصفرار وتطهير عميق",
+      "isPopular": false,
+      "createdAt": "2026-10-23T22:02:08.313Z",
+      "updatedAt": "2026-10-23T22:02:08.313Z",
+      "variants": [
+        {
+          "id": "harpic_450ml",
+          "name": "450 مل أصلي أزرق",
+          "price": 45,
+          "costPrice": 36,
+          "barcode": "62230401",
+          "inStock": true,
+          "stockQuantity": 25,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "harpic_750ml",
+          "name": "750 مل مركز بلس",
+          "price": 70,
+          "costPrice": 58,
+          "barcode": "62230402",
+          "inStock": true,
+          "stockQuantity": 20,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        }
+      ]
+    },
+    {
+      "id": "prod_downy",
+      "categoryId": "cat_softeners",
+      "name": "داوني منعم ومطري الأقمشة المركز (Downy)",
+      "brand": "داوني",
+      "description": "نعومة فائقة للملابس وعطر يدوم طويلاً لأيام مع كل حركة",
+      "isPopular": true,
+      "createdAt": "2026-10-23T22:02:08.313Z",
+      "updatedAt": "2026-10-23T22:02:08.313Z",
+      "variants": [
+        {
+          "id": "downy_1l_valley",
+          "name": "1 لتر مركز (نسيم الوادي)",
+          "price": 95,
+          "costPrice": 80,
+          "barcode": "62240101",
+          "inStock": true,
+          "stockQuantity": 25,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "downy_1l_dream",
+          "name": "1 لتر مركز (حلم الرومانسية الزهري)",
+          "price": 95,
+          "costPrice": 80,
+          "barcode": "62240102",
+          "inStock": true,
+          "stockQuantity": 22,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "downy_3l",
+          "name": "3 لتر عائلي موفر",
+          "price": 245,
+          "costPrice": 210,
+          "barcode": "62240103",
+          "inStock": true,
+          "stockQuantity": 14,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        }
+      ]
+    },
+    {
+      "id": "prod_comfort",
+      "categoryId": "cat_softeners",
+      "name": "كومفورت منعم ومعطر أقمشة (Comfort)",
+      "brand": "كومفورت",
+      "description": "حماية ألياف الملابس وتسهيل الكي مع انتعاش نقي",
+      "isPopular": false,
+      "createdAt": "2026-10-23T22:02:08.313Z",
+      "updatedAt": "2026-10-23T22:02:08.313Z",
+      "variants": [
+        {
+          "id": "comfort_1l",
+          "name": "1 لتر ندى الصباح أو زهور",
+          "price": 85,
+          "costPrice": 72,
+          "barcode": "62240201",
+          "inStock": true,
+          "stockQuantity": 20,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "comfort_3l",
+          "name": "3 لتر اقتصادي",
+          "price": 220,
+          "costPrice": 190,
+          "barcode": "62240202",
+          "inStock": true,
+          "stockQuantity": 12,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        }
+      ]
+    },
+    {
+      "id": "prod_farida_freshener",
+      "categoryId": "cat_softeners",
+      "name": "معطر جو فريدة سبراي طبيعي (Farida)",
+      "brand": "فريدة",
+      "description": "معطر جو ومفروشات ثابت برائحة فرنسية وعربية ساحرة",
+      "isPopular": true,
+      "createdAt": "2026-10-23T22:02:08.313Z",
+      "updatedAt": "2026-10-23T22:02:08.313Z",
+      "variants": [
+        {
+          "id": "farida_garden",
+          "name": "460 مل نسيم الحدائق",
+          "price": 42,
+          "costPrice": 32,
+          "barcode": "62240301",
+          "inStock": true,
+          "stockQuantity": 40,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "farida_oud",
+          "name": "460 مل عود ملكي فخم",
+          "price": 45,
+          "costPrice": 34,
+          "barcode": "62240302",
+          "inStock": true,
+          "stockQuantity": 30,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "farida_peach",
+          "name": "460 مل خوخ منعش",
+          "price": 42,
+          "costPrice": 32,
+          "barcode": "62240303",
+          "inStock": true,
+          "stockQuantity": 35,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "farida_vanilla",
+          "name": "460 مل لافندر وفانيلا",
+          "price": 42,
+          "costPrice": 32,
+          "barcode": "62240304",
+          "inStock": true,
+          "stockQuantity": 28,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        }
+      ]
+    },
+    {
+      "id": "prod_fine_tissues",
+      "categoryId": "cat_paper_tools",
+      "name": "مناديل فاين وزينة ورقية (مطبخ وتواليت وسحب)",
+      "brand": "فاين وزينة",
+      "description": "مناديل قطنية فائقة الامتصاص والنعومة عالية الجودة",
+      "isPopular": true,
+      "createdAt": "2026-10-23T22:02:08.313Z",
+      "updatedAt": "2026-10-23T22:02:08.313Z",
+      "variants": [
+        {
+          "id": "fine_kitchen_2roll",
+          "name": "بكرة مطبخ جامبو 2 رول كبير",
+          "price": 38,
+          "costPrice": 29,
+          "barcode": "62250101",
+          "inStock": true,
+          "stockQuantity": 50,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "fine_toilet_6roll",
+          "name": "باكت تواليت 6 رول مضغوط",
+          "price": 48,
+          "costPrice": 38,
+          "barcode": "62250102",
+          "inStock": true,
+          "stockQuantity": 40,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "zeina_box_550",
+          "name": "علبة مناديل سحب زينة 550 منديل",
+          "price": 32,
+          "costPrice": 25,
+          "barcode": "62250103",
+          "inStock": true,
+          "stockQuantity": 60,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        }
+      ]
+    },
+    {
+      "id": "prod_sponges_wire",
+      "categoryId": "cat_paper_tools",
+      "name": "إسفنج وسلك مواعين ستانلس ومفرود",
+      "brand": "أدوات المجد",
+      "description": "سلك صلب غير قابل للصدأ وإسفنج متين للتنظيف اليومي",
+      "isPopular": false,
+      "createdAt": "2026-10-23T22:02:08.313Z",
+      "updatedAt": "2026-10-23T22:02:08.313Z",
+      "variants": [
+        {
+          "id": "sponge_3pack",
+          "name": "طقم إسفنج بريل وجهين 3 قطع",
+          "price": 25,
+          "costPrice": 18,
+          "barcode": "62250201",
+          "inStock": true,
+          "stockQuantity": 70,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "wire_stainless_piece",
+          "name": "سلك ستانلس كوري جامبو (قطعة)",
+          "price": 10,
+          "costPrice": 6.5,
+          "barcode": "62250202",
+          "inStock": true,
+          "stockQuantity": 120,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "wire_loose_1kg",
+          "name": "سلك مواعين ناعم بالكيلو",
+          "price": 45,
+          "costPrice": 32,
+          "barcode": "62250203",
+          "inStock": true,
+          "stockQuantity": 25,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        }
+      ]
+    },
+    {
+      "id": "prod_mops_buckets",
+      "categoryId": "cat_paper_tools",
+      "name": "مساحات سيليكون وجرادل فوريرة ومقشات",
+      "brand": "أدوات المجد",
+      "description": "أدوات متينة لتنظيف وتجفيف السيراميك والباركيه والرخام",
+      "isPopular": false,
+      "createdAt": "2026-10-23T22:02:08.313Z",
+      "updatedAt": "2026-10-23T22:02:08.313Z",
+      "variants": [
+        {
+          "id": "spin_bucket",
+          "name": "جردل مسح استانلس مع شرشوبة دوارة 360",
+          "price": 245,
+          "costPrice": 195,
+          "barcode": "62250301",
+          "inStock": true,
+          "stockQuantity": 15,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "silicone_squeegee",
+          "name": "مساحة أرضيات سيليكون دبل 45 سم بعصا",
+          "price": 55,
+          "costPrice": 40,
+          "barcode": "62250302",
+          "inStock": true,
+          "stockQuantity": 30,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "broom_soft",
+          "name": "مقشة ناعمة بلاستيك بعصا حديد ملبس",
+          "price": 45,
+          "costPrice": 32,
+          "barcode": "62250303",
+          "inStock": true,
+          "stockQuantity": 35,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        }
+      ]
+    },
+    {
+      "id": "prod_handsoap",
+      "categoryId": "cat_personal_care",
+      "name": "صابون سائل للأيدي رغوي ومغذي",
+      "brand": "لوكس ودوف وبيرل",
+      "description": "ترطيب عميق ونظافة معطرة بنعومة الحرير للبشرة",
+      "isPopular": false,
+      "createdAt": "2026-10-23T22:02:08.313Z",
+      "updatedAt": "2026-10-23T22:02:08.313Z",
+      "variants": [
+        {
+          "id": "handsoap_500ml",
+          "name": "مضخة 500 مل عود وورد",
+          "price": 35,
+          "costPrice": 26,
+          "barcode": "62260101",
+          "inStock": true,
+          "stockQuantity": 40,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        },
+        {
+          "id": "handsoap_2l_refill",
+          "name": "عبوة إعادة تعبئة 2 لتر توفير",
+          "price": 65,
+          "costPrice": 48,
+          "barcode": "62260102",
+          "inStock": true,
+          "stockQuantity": 22,
+          "lastPriceUpdated": "2026-10-23T22:02:08.313Z"
+        }
+      ]
+    }
+  ],
+  "priceLogs": [
+    {
+      "id": "log_1",
+      "productId": "prod_ariel",
+      "productName": "إريال أوتوماتيك (Ariel)",
+      "variantId": "ariel_4kg",
+      "variantName": "4 كجم أوتوماتيك (عرض خاص)",
+      "oldPrice": 340,
+      "newPrice": 350,
+      "timestamp": "2026-10-23T20:02:08.320Z",
+      "changedBy": "manager",
+      "notes": "تحديث سعر المصنع الجديد"
+    },
+    {
+      "id": "log_2",
+      "productId": "prod_fairy",
+      "productName": "فيري سائل غسيل الأطباق (Fairy)",
+      "variantId": "fairy_1l",
+      "variantName": "زجاجة 1 لتر مركز",
+      "oldPrice": 75,
+      "newPrice": 80,
+      "timestamp": "2026-10-23T17:02:08.320Z",
+      "changedBy": "manager",
+      "notes": "زيادة سعر الجملة من الموزع"
+    }
+  ]
+}

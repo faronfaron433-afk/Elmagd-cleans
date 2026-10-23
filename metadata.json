@@ -1,0 +1,8 @@
+{
+  "name": "Remix منظفات المجد - إدارة وعرض الأسعار",
+  "description": "الموقع الرسمي لمحل منظفات المجد: استعلام فوري عن أسعار ومخزون المنظفات والمساحيق لعمال المحل، مع بوابة تحكم متكاملة للمدير لتحديث الأسعار وتتبع النواقص.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
